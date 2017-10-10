@@ -1,0 +1,39 @@
+header a {
+    float: left;
+}
+
+nav {
+    float: right;
+}
+
+nav a {
+    border: 1px solid #E3E3E3;
+    border-radius: 8px;
+    background-color: white;
+    margin-right: .5em;
+    padding: .5em .5em;
+    float: right;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #828282;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #CFCFCF;
+}
+
+#profile {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#profile tr {
+    border-bottom: 2px solid #9C9C9C;
+    height: 8em;
+}
+
+#profile td {
+    text-align: center;
+    vertical-align: central;
+}

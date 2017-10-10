@@ -1,0 +1,100 @@
+/*
+    All CSS in this file is applied site wide and changes will effect all pages 
+    of the website.
+*/
+html {
+    height: 100%;
+    padding: 0px 0px;
+    margin: 0px 0px;
+}
+
+body {
+    background-color: #F5F8FA;
+    font-family: 'Roboto', sans-serif;
+    padding: 0px 0px;
+    margin: 0px 0px;
+    height: 100%;
+}
+
+header {
+	background-color: #E8E8E8;
+	height: 6em;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	position: fixed;
+	box-shadow: 0px 10px 30px #888888;
+}
+
+#nav {
+	padding-top: 1.5em;
+}
+
+.container {
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+nav {
+    text-align: center;
+}
+
+hr {
+    border: 1px solid #9C9C9C;
+    margin-bottom: 1em;
+}
+
+
+/* CSS for form fields and buttons */
+
+input, select {
+    border: 1px solid #E3E3E3;
+    border-radius: 8px;
+    background-color: white;
+    padding: .5em .5em;
+    margin-bottom: 1.5em;
+}
+
+input[type="submit"] {
+    font-size: .8em;
+    font-weight: bold;
+    color: #828282;
+    padding: 1em;
+}
+
+input[type="submit"]:hover {
+    background-color: #CFCFCF;
+}
+
+/* --------------------------- */
+.error {
+  font-weight: bold;
+  color: #FF0000;
+}
+
+.topSpacer {
+	height: 8em;
+	width: 100%;
+}
+
+.bottomSpacer {
+	height: 9em;
+	width: 100%;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media only screen and (max-width: 1024px) {
+    
+.container {
+    width: 95%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+}

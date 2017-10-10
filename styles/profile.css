@@ -1,0 +1,72 @@
+header a {
+    float: left;
+}
+
+nav {
+    float: right;
+}
+
+nav a {
+    border: 1px solid #E3E3E3;
+    border-radius: 8px;
+    background-color: white;
+    margin-right: .5em;
+    padding: .5em .5em;
+    float: right;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #828282;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #CFCFCF;
+}
+
+#profile {
+    background-color: #F58345;
+    padding: 1.5em 1.5em;
+    border-radius: 8px;
+}
+
+aside {
+    float: left;
+    margin-right: 2em;
+}
+
+#profile fieldset {
+    border: 2px solid #E3E3E3;
+    font-size: larger;
+}
+
+#editProfileForm, #chatWithPersonForm {
+    padding-top: 1.5em;
+    clear: both;
+}
+
+#conversations {
+    width: 100%;
+}
+
+#conversations td {
+    background-color: #7378B9;
+    width: 33.333%;
+    height: 3em;
+    border-radius: 8px;
+    text-align: center;
+    vertical-align: central;
+}
+
+#conversations td a {
+    color: #E3E3E3;
+    font-size: x-large;
+    text-decoration: none;
+}
+
+.notification {
+    background-color: red;
+    font-weight: bold;
+    display: inline-block;
+    border-radius: 13px;
+    padding: .3em .6em;
+}
